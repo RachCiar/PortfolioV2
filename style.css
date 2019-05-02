@@ -107,6 +107,14 @@ vertical-center {
 
 
 /*---------------PARALLAX FIXED BACKGROUND CSS------------------ */
+ #portfolio{
+    margin-top: 200px;
+    
+} 
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+  }
 .parallax{
     margin-top: 5em;
     font-family: 'Gugi', cursive;
@@ -122,6 +130,13 @@ vertical-center {
    top: 100px !important; */
 }
  
+/*.affix {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 100px !important; 
+} */
+
+
 .sections{
     font-weight:700px;
 

@@ -15,28 +15,21 @@ $(function () {
     }; */
 
 
-
-// Activate scrollspy to add active class to navbar items on scroll
-    $('body').scrollspy({
-        target: '#mainNav',
-        offset: 80
-      });
-
-    $('#portfolio').scroll(function (event) {
+   /* $('#portfolio').scroll(function (event) {
         event.preventDefault();
         $('.navbar').scrollView();
-    });
+    }); */
 
 //Carousel next and previous buttons
-    "use strict";
-    $('.next').click(function () {
-        $('.carousel').carousel('next');
-        return false;
-    });
-    $('.prev').click(function () {
-        $('.carousel').carousel('prev');
-        return false;
-    });
+//    "use strict";
+//    $('.next').click(function () {
+//        $('.carousel').carousel('next');
+ //       return false;
+//    });
+//    $('.prev').click(function () {
+ //       $('.carousel').carousel('prev');
+ //       return false;
+//    });
 
     /*------------TOP NAVIGTION BAR ------------------- */
 
@@ -56,11 +49,18 @@ function scrollFunction() {
 } 
 
 //https://stackoverflow.com/questions/37645566/how-to-make-a-sticky-sidebar-in-bootstrap
+//https://api.jquery.com/event.preventdefault/
 $(".parallax").affix({
     offset: { 
+        
         top: 195 
     }
+   
 });
+
+// Activate scrollspy to add active class to navbar items on scroll
+//https://www.bootply.com/5FbSmT4UQQ
+$('body').scrollspy({target: ".navbar", offset: 50});
 
  // Modal popup$(function () {
     $('.portfolio-item').magnificPopup({
