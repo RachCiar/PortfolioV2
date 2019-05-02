@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="scripts.js"></script>
+    <title>Portfolio Site</title>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+    <!-- Navigation -->
+
+    <div class="navbar navbar-expand-md  fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo" src="img/RachelLogo-3.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-toggler-right text-white rounded" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                    </li>
+                    <li class="nav-item js-scroll-trigger">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item js-scroll-trigger">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item js-scroll-trigger">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item js-scroll-trigger">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--- Hero image Fixed background -->
+    <figure>
+        <div class="col-12 parallax-header text-center">
+            <h1 id="header-title">Web Developer</h1>
+
+        </div>
+    </figure>
+
+
+
+    <!--- pop down hidden Section -->
+    <button class="col-12 toggle-down" data-toggle="collapse" data-target="#down-button"><i class="fas fa-chevron-down">
+        </i> Toggle Down <i class="fas fa-chevron-down"></i></button>
+    <div id="down-button" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">This Website was Built Using:</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--- Three Column pop down hidden Section -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML5</h3>
+                    <P>Built with the latest version of HTML, HTML5.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bold"></i>
+                    <h3>BOOTSTRAP</h3>
+                    <p>Build with the latest version of Bootstrap, Bootstrap 4.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Build with the latest version of CSS, CSS3.</p>
+                </div>
+
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!--- Portfolio Section Fixed background -->
+
+    <figure class="container-fluid parallax" id="portfolio" data-spy="affix" data-offset-top="195">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4 sections"><strong>Portfolio</strong></h1>
+            </div>
+        </div>
+    </figure>
+
+    <!------------------- Portfolio Cards------------------->
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <!-- Portfolio Buttons 
+                <div class="col-12 text-right mb-4">
+                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i
+                            class="fa fa-lg fa-chevron-left"></i></a>
+                    <a class="btn btn-outline-secondary next" href="" title="more"><i
+                            class="fa fa-lg fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div> -->
+                <!-- -----------Portfolio-------------  -->
+                <div class="container ">
+                    <div class="row">
+                        <!-- -----------Portfolio Card ONE -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-1">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Jack Jack Attack</h3>
+                                        <h5>Kinetec Typography</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/jackjack_205Wx281H.jpg" alt="jack jack">
+                            </a>
+                        </div>
+
+
+                        <!-- -----------Portfolio Card TWO -------------  -->
+
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-2">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Star Wars</h3>
+                                        <h5>Converting 2D pictures to 3D Space</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/starWars171Wx281H.jpg" alt="Star Wars">
+                            </a>
+                        </div>
+
+
+                        <!-- -----------Portfolio Card THREE -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-3">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+
+                        <!-- -----------Portfolio Card FOUR -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-4">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+
+                        <!-- -----------Portfolio Card FIVE -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-5">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+                        <!-- -----------Portfolio Card SIX -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-6">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+                        <!-- -----------Portfolio Card SEVEN -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-7">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+
+                        <!-- -----------Portfolio Card EIGHT -------------  -->
+                        <div class="col-md-6 col-lg-3">
+                            <a class="portfolio-item d-block mx-auto" data-toggle="modal"
+                                data-target="#portfolio-modal-8">
+                                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                                    <div class="portfolio-item-caption-content my-auto w-100 text-center">
+                                        <h3>Project Title</h3>
+                                        <h5>Project Description</h5>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/Heart logo-grouped.png" alt="Heart Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <!------------- About Fixed Background --------------------->
+
+    <figure class="container-fluid parallax " id="about">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4 sections"><strong>About</strong></h1>
+            </div>
+        </div>
+    </figure>
+
+    <!--- About Two Column Section -->
+    <section class="container-fluid padding">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Rachel Ciarlante</h2>
+            </div>
+        </div>
+        <div class="row padding">
+
+            <div class="col-lg-6">
+                <img src="img/selfPhoto.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+
+                <p>Rachel has been working in many areas of Business Administration for over 20 years. She is currently
+                    a student at Sullivan University and studying in the field of Dynamic Web Design. Her list of
+                    experience include HTML/CSS3, JavaScript, jQuery, Netbeans,PHP, WordPress, MySQL, Adobe Dreamweaver
+                    cc, Adobe Animate cc, Visual Studio VB, Adobe Photoshop cc, Animate cc, Adobe After Effects cc,
+                    Adobe Illustrator cc, Java, Microsoft Office, SharePoint Services, Billing, Accounts Payable,
+                    Purchasing, Scheduling, Supply Ordering, Note Taking and Transcription, Customer Service, Report
+                    Preparation, Oral and Written Communication, Expense Reports, Conference and Travel Arrangements,
+                    Front and Backend Office operations,Professional Presentations, Event planning and Problem solving.
+                </p>
+                <p>Rachel is very organized, and detail-oriented. She excels at multi-tasking. She is an efficient,
+                    proactive, quick learner. Rachel enjoys working in a fast-paced, upbeat, positive environment in
+                    which she gets to use her skills to support others and accomplish challenging goals.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--- Resume Fixed background -->
+    <figure class="container-fluid parallax " id="resume">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4 sections"><strong>Resume</strong></h1>
+            </div>
+        </div>
+    </figure>
+    <!--- Resume -->
+    <button type="button" class="col-2 btn btn-primary" data-toggle="modal" data-target="#viewResume">View Resume </button>
+    <section class="container-fluid">
+        <div class="row" id="tSkills">
+
+            <div class="col-8">
+                <h2>Technical Skills</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Photoshop</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>mySQL</li>
+                            <li>phpMyAdmin</li>
+                            <li>WordPress</li>
+                            <li>Adobe Photoshop cc</li>
+                            <li>Adobe Dreamweaver cc</li>
+                            <li>Adobe After Effects cc</li>
+                            <li>Adobe Animate cc</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+
+                        <ul>
+                            <li>SharePoint Services</li>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft Outlook</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Accounting</li>
+                            <li>Scheduling</li>
+                            <li>Database Management & Reporting</li>
+                            <li>Logic and Algorithm</li>
+                            <li>Purchasing</li>
+                            <li>Supply Chain Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" id="education">
+                <h2>Education</h2>
+                <ul class="removeBullets">
+                    <h4>Sullivan University</h4>
+                    <li>Louisville, KY</li>
+                    <li>Associates</li>
+                    <li>Dynamic Web Development</li>
+                    <li>2017 - 2019</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h4>Sullivan University</h4>
+                    <li>Louisville, KY</li>
+                    <li>Business Administration</li>
+                    <li>1997 - 1998</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="softSkills">
+            <div class="col-8">
+                <h2>Soft Skills</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>Office Management</li>
+                            <li>Professional Presentations</li>
+                            <li>Expense Reports</li>
+                            <li>Conference and Travel Arrangements</li>
+                            <li>Purchasing</li>
+                            <li>Event Planning</li>
+                            <li>Transcription</li>
+                            <li>Verbal Communication</li>
+                            <li>Written communication</li>
+                            <li>Analytical</li>
+                            <li>Customer Focused</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>Collaborative</li>
+                            <li>Team Player</li>
+                            <li>Handle Deadlines</li>
+                            <li>Problem Solving</li>
+                            <li>Organized</li>
+                            <li>Detail-oriented</li>
+                            <li>Proactive</li>
+                            <li>Fast Learner</li>
+                            <li>HR Interviews</li>
+                            <li>Note Taking</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" id="awards">
+                <h2>Awards</h2>
+                <ul class="removeBullets">
+                    <h5>Sullivan University</h5>
+                    <li>Dean's List</li>
+                    <li>Summer 2018</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>Sullivan University</h5>
+                    <li>Dean's List</li>
+                    <li>Fall 2018</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>Sullivan University</h5>
+                    <li>Dean's List</li>
+                    <li>Winter 2019</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="emplHist">
+            <div class="col-4">
+                <h2>Employment History</h2>
+                <ul class="removeBullets">
+                    <h5>Insight Communications</h5>
+                    <li>Executive Assistant</li>
+                    <li>Louisville, KY</li>
+                    <li>December 2006 - May 2009</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>Jamestown of St. Matthews</h5>
+                    <li>Billing Manager</li>
+                    <li>Louisville, KY</li>
+                    <li>December 2005 - December 2006</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>The Icecream Factory and Restaurant</h5>
+                    <li>Co-Owner</li>
+                    <li>Louisville, KY</li>
+                    <li>October 2001 - May 2006</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>LDDS Inc.</h5>
+                    <li>Executive Assistant</li>
+                    <li>Louisville, KY</li>
+                    <li>October 1990 - April 1994</li>
+                </ul>
+            </div>
+
+            <div class="col-8" id="expHigh">
+                <h2>Experience Highlights</h2>
+                <ul class="removeBullets">
+                    <h5>New Beginnings Foundation</h5>
+                    <li>Internship</li>
+                    <li>Louisville, KY </li>
+                    <li>April 2019 - Present</li>
+                    <li>Redesigned the NewBeginngs.foundation website. Using WordPress, Adobe XD, Photoshop,
+                        HTML, CSS,
+                        JavaScript</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>New Beginnings Foundation</h5>
+                    <li>Internship</li>
+                    <li>Louisville, KY </li>
+                    <li>April 2019 - Present</li>
+                    <li>Tested NBFS website for UX/UI design before launch.</li>
+                </ul>
+                <ul class="removeBullets">
+                    <h5>Insight Communications</h5>
+                    <li>Executive Assistant</li>
+                    <li>Louisville, KY </li>
+                    <li>December 2006 - May 2009</li>
+                    <li>Trained and provided Help Desk support for SharePoint Services 3.0.
+                        Created and designed SharePoint web sites. </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---Contact Fixed background -->
+    <figure class="container-fluid parallax " id="contact">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4 sections"><strong>Contact</strong></h1>
+            </div>
+        </div>
+    </figure>
+
+    <!--- Contact -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Contact</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/RachelLogo-2.png">
+                </div>
+                <div class="col-md-6">
+                    <h5>&copy; rachelciarlante.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="modal fade" id="portfolio-modal-1" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-1"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jack Jack Attack</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Kinetic Typography made with Adobe After
+                                    Effects</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/jackjack_205Wx281H.jpg" alt="jack jack">
+                                <div class="card-text">
+                                    <p>This was a class project. <br> This is a two minute video using
+                                        Kinetic Typography. Taken from Disney - Pixar's short film Jack-Jack Attack</p>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=bkIkh5Bfdwo" target="_blank"
+                                    class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 2 -->
+    <div class="modal fade" id="portfolio-modal-2" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-2"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Star Wars</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">2d Pictures to 3D video</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/starWars171Wx281H.jpg" alt="Star Wars">
+                                <div class="card-text">
+                                    <p>For this class project, I took 2D images from a popular movie and cut them out in
+                                        layers using Photo Shop then animated the layers in 3D space using After
+                                        Effects.</p>
+                                </div>
+
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=EcZIRHFAq3g&t=2s" target="_blank"
+                                class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 3 -->
+    <div class="modal fade" id="portfolio-modal-3" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-3"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 4 -->
+    <div class="modal fade" id="portfolio-modal-4" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-4"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="modal fade" id="portfolio-modal-5" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-5"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="modal fade" id="portfolio-modal-5" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-5"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6 -->
+    <div class="modal fade" id="portfolio-modal-6" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-6"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 7 -->
+    <div class="modal fade" id="portfolio-modal-7" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-7"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 8 -->
+    <div class="modal fade" id="portfolio-modal-8" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-8"
+        aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Head title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <i class="fa fa-3x fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12 mx-auto">
+                                <h2 class="text-secondary text-uppercase mb-0">Project Title</h2>
+                                <hr class="star-dark mb-5">
+                                <img class="img-fluid mb-5" src="img/Heart logo-grouped.png" alt="heart logo">
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure
+                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                        pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. </p>
+                                </div>
+                                <a href="" target="_blank" class="btn btn-outline-secondary m-2">See Portfolio Piece</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button to view and print resume modal-->
+    <div class="modal fade" id="viewResume" tabindex="-1" role="dialog" aria-labelledby="viewResume" aria-hidden="true">
+        <div class="modal-dialog bg-white modal-lg" role="document">
+            <div class="modal-header">
+                <h5 class="modal-title">Rachel Ciarlante - Resume</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-3x fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container text-center">
+                    <button class="btn btn-outline-secondary ml-5" id="print" onClick="window.print()">Print Resume</button>
+                    <img class="img-fluid mb-5" src="img/Rachel_Ciarlante_Resume_pg1.jpg" alt="resume page one">
+                    <img class="img-fluid mb-5" src="img/Rachel_Ciarlante_Resume_pg2.jpg" alt="resume page two">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+</body>
+
+</html>
