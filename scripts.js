@@ -3,7 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+ $(document).ready(function(){
+     
+    $('body').scrollspy({target: ".navbar", offset: 50});
+});
+
 $(function () {
+    
 
    /* $.fn.scrollView = function () {
         alert();
@@ -61,6 +68,7 @@ $(".parallax").affix({
 // Activate scrollspy to add active class to navbar items on scroll
 //https://www.bootply.com/5FbSmT4UQQ
 $('body').scrollspy({target: ".navbar", offset: 50});
+
 
  // Modal popup$(function () {
     $('.portfolio-item').magnificPopup({
