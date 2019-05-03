@@ -110,12 +110,12 @@ vertical-center {
 
 
 /*---------------PARALLAX FIXED BACKGROUND CSS------------------ */
- #portfolio{
+ /* #portfolio{
     margin-top: 200px;
     
-} 
+}  */
 .affix {
-    top: 20px;
+    top: 200px;
     z-index: 9999 !important;
   }
 .parallax{

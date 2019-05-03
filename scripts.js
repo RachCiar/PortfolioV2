@@ -7,6 +7,14 @@
  $(document).ready(function(){
      
     $('body').scrollspy({target: ".navbar", offset: 50});
+
+    $("#portfolio").affix({
+        offset: { 
+            
+            top: 195 
+        }
+       
+    });
 });
 
 $(function () {
@@ -57,13 +65,13 @@ function scrollFunction() {
 
 //https://stackoverflow.com/questions/37645566/how-to-make-a-sticky-sidebar-in-bootstrap
 //https://api.jquery.com/event.preventdefault/
-$(".parallax").affix({
-    offset: { 
+// $(".parallax").affix({
+//     offset: { 
         
-        top: 195 
-    }
+//         top: 195 
+//     }
    
-});
+// });
 
 // Activate scrollspy to add active class to navbar items on scroll
 //https://www.bootply.com/5FbSmT4UQQ
