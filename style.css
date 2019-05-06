@@ -26,7 +26,7 @@ html, body {
     padding: 2rem;
 }
 
-/*--------------------------NAVBAR CSS------------------------------*/
+/*--------------NAVBAR CSS-----------------*/
 .navbar {
    
     background-color: #95c4e2;
@@ -86,12 +86,12 @@ vertical-center {
   transform: translate(-50%, -50%);
 }
 
-/*-----------------------TOGGLE DOWN------------------------ */
+/*---------------------TOGGLE DOWN--------------- */
 
 .toggle-down{
     background-color: #e19640;
 }
-/*-----------------------CAROUSEL CSS-------------------------- */
+/*----------CAROUSEL CSS-------------------------- */
 
 
 /*-----------Drop Down ------------------  */
@@ -109,11 +109,12 @@ vertical-center {
 }
 
 
-/*---------------PARALLAX FIXED BACKGROUND CSS------------------ */
+/*---------PARALLAX FIXED BACKGROUND CSS------------ */
  /* #portfolio{
     margin-top: 200px;
     
 }  */
+
 .affix {
     top: 200px;
     z-index: 9999 !important;
@@ -140,13 +141,7 @@ vertical-center {
 } */
 
 
-.sections{
-    font-weight:700px;
 
-}
-vertical-center {
-    padding-top: 25%;
-}
 
 
 /*--------------CARD SLIDER-----------------------  */
@@ -193,6 +188,9 @@ vertical-center {
 
  /*----------------RESUME CSS----------------------  */
 
+ .resume{
+     margin-left: 1em;
+ }
 ul.removeBullets li {
     list-style-type: none;
     margin: 0;
@@ -282,23 +280,16 @@ footer{
 
 /*----------Media Queries ----------- */
 @media (max-width: 992px){
-    .social a{
+    .social a img{
         font-size: 4em;
         padding: 2rem;
     }
 }
 
 @media (max-width: 768px){
-    .carousel-caption {
-        top:45%;
-    }
-    .carousel-caption h3 {
-        font-size: 140%;
-        font-weight: 400;
-        padding-bottom: .2rem;
-
-    }
-    .social a{
+    
+    
+    .social a img{
         font-size: 2.5em;
         padding: 1.2rem;
     }
@@ -308,14 +299,9 @@ footer{
 
 }
 @media (max-width: 576px) {
-    .carousel-caption {
-        top:40%;
-    }
-    .carousel-caption h3 {
-        font-size: 110%;
-
-    }
-    .social a{
+   
+    
+    .social a img{
         font-size: 2.0em;
         padding: .7rem;
     }
